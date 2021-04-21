@@ -34,6 +34,7 @@ header {
     font-family: 'Fredoka One', cursive;
     font-size: 1.50rem;
     letter-spacing: 0.25rem;
+    font-size: 200%;
     color: var(--yellow);
 }
 
@@ -44,6 +45,7 @@ header {
 
 nav {
     float: right;
+    font-size: 150%;
 }
 
 nav a {
@@ -85,7 +87,7 @@ nav a:hover {
     font-weight: bold;
 }
 
-.btn {
+.donate-btn {
     background-color: var(--yellow);
     color: var(--dk-blue);
     position: relative;
@@ -106,8 +108,10 @@ nav a:hover {
 .section-title {
     font-family: 'Fredoka One', cursive;
     color: var(--dk-blue);
+    letter-spacing: 0.25rem;
     margin-top: 25px;
     margin-left: 10px;
+    padding-left: 40px;
 
 }
 
@@ -118,8 +122,12 @@ nav a:hover {
 
 .left-heading {
     text-align: right;
+    font-size: 110%;
+    line-height: 35px;
     margin-bottom: 50px;
     margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 #center-about {
@@ -134,8 +142,14 @@ nav a:hover {
 
 .right-heading {
     text-align: left;
+    font-size: 110%;
+    line-height: 35px;
     margin-bottom: 50px;
     margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+
 }
 
 #goals-image {
@@ -144,6 +158,25 @@ nav a:hover {
     margin-right: auto;
     width: 100%;
 
-
 }
 
+.our-team {
+    margin-top: 25px;
+}
+
+.team-text {
+    line-height: 35px;
+    font-size: 110%;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.our-team-image {
+    height: 700px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    opacity: 0.5;
+    margin-top: 25px;
+}
