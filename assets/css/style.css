@@ -57,19 +57,43 @@ nav a:hover {
     color: var(--yellow);
 }
 
+#hero-outer {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 #hero-image {
     height: 800px;
     width: 100%;
-    background: url("../images/HEROIMAGE.jpg");
+    background: url("../images/HEROIMAGE.jpg") no-repeat center center;
 }
 
 #hero-text {
     font-size: 5rem;
-    background: orangered;
-    color: var(--yellow);
+    background-color: rgba(177, 186, 222, .7);
+    color: var(--dk-blue);
+    padding: 40px 40px 0 40px;
+    position: relative;
+    top: 400px;
+    width: 70%;
+
 }
 
 #hero-text h2 {
     font-weight: bold;
 }
 
+.btn {
+    background-color: var(--yellow);
+    color: var(--dk-blue);
+    position: relative;
+    left: 50%;
+    bottom: 50%;
+}
+
+.btn:hover {
+    background-color: var(--mid-blue);
+    color: var(--dk-blue);
+}
