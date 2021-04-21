@@ -58,14 +58,14 @@ nav a:hover {
 }
 
 #hero-outer {
-    height: 800px;
+    height: 700px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #hero-image {
-    height: 800px;
+    height: 700px;
     width: 100%;
     background: url("../images/HEROIMAGE.jpg") no-repeat center center;
 }
@@ -96,4 +96,32 @@ nav a:hover {
 .btn:hover {
     background-color: var(--mid-blue);
     color: var(--dk-blue);
+}
+
+#our-goals {
+    height: 700px;
+    overflow: hidden;
+}
+
+.section-title {
+    font-family: 'Fredoka One', cursive;
+    color: var(--dk-blue);
+    margin-top: 25px;
+    margin-left: 10px;
+    border-bottom: 1px;
+}
+
+#left-about {
+    background-color: red;
+    height: 100%;
+}
+
+#center-about {
+    background-color: blue;
+    height: 100%;
+}
+
+#right-about {
+    background-color: orange;
+    height: 700px;
 }
