@@ -25,7 +25,7 @@ body {
     margin-left: 0;
 }
 
-header {
+header, footer {
     background-color: var(--mid-blue);
     padding: 1rem;
 }
@@ -87,9 +87,13 @@ nav a:hover {
     font-weight: bold;
 }
 
-.donate-btn {
+.btn {
     background-color: var(--yellow);
     color: var(--dk-blue);
+    font-weight: bold;
+}
+
+#hero-btn {
     position: relative;
     left: 50%;
     bottom: 50%;
@@ -173,10 +177,35 @@ nav a:hover {
     text-align: center;
 }
 
+#team-btn {
+    position: relative;
+    left: 35%;
+    bottom: 10px;
+}
+
 .our-team-image {
     height: 700px;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     opacity: 0.5;
     margin-top: 25px;
+}
+
+.smedia-links {
+    padding-top: 30px;
+}
+.smedia-links a{
+    color: var(--dk-blue);
+    font-size: 175%;
+    letter-spacing: 2px;
+}
+
+.smedia-links a:hover {
+    text-decoration: none;
+    color: var(--yellow);
+}
+
+.contact {
+    float: right;
+    text-align: right;
 }
