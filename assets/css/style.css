@@ -28,36 +28,43 @@ body {
 header, footer {
     background-color: var(--mid-blue);
     padding: 1rem;
+    display: flex;
 }
 
-.logo a {
+
+.navbar-brand {
     font-family: 'Fredoka One', cursive;
     font-size: 1.50rem;
     letter-spacing: 0.25rem;
-    font-size: 200%;
     color: var(--yellow);
 }
 
-.logo a:hover {
-    text-decoration: none;
-
+.navbar-brand:hover {
+    color: var(--yellow);
 }
 
-nav {
-    float: right;
-    font-size: 150%;
+.navbar-toggler {
+    background-color: var(--yellow);
+    float:right;
 }
 
-nav a {
+li a {
     color: var(--dk-blue);
     font-weight: bold;
     padding: 1.5rem;
 }
 
-nav a:hover {
+li a:hover {
     text-decoration: none;
     color: var(--yellow);
 }
+
+
+.navbar-nav > li > .dropdown-menu { 
+    background-color: var(--off-white); 
+}
+
+
 
 #hero-outer {
     height: 700px;
