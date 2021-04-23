@@ -1,3 +1,4 @@
+/*basic styling */
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Raleway&display=swap');
 
 :root {
@@ -25,6 +26,7 @@ body {
     margin-left: 0;
 }
 
+/*header */
 header, footer {
     background-color: var(--mid-blue);
     padding: 1rem;
@@ -64,26 +66,21 @@ li a:hover {
     background-color: var(--off-white); 
 }
 
-
+/*jumbotron on index page */
 .helpus {
-    height: 700px;
-    width: 100%;
     background: url("../images/HEROIMAGE.jpg") no-repeat center center;
 }
 
 .helpus-text {
     font-size: 5rem;
-    background-color: rgba(177, 186, 222, .6);
+    background-color: rgba(177, 186, 222, .7);
     color: var(--dk-blue);
-    padding: 40px 40px 0 40px;
+    padding: 40px;
 
 
 }
-
-.btn {
-    background-color: var(--yellow);
-    color: var(--dk-blue);
-    font-weight: bold;
+.helpus-text p {
+    font-size: 1.75rem;
 }
 
 .helpus-btn {
@@ -92,16 +89,20 @@ li a:hover {
     bottom: 50%;
 }
 
+/* general button styling */
+.btn {
+    background-color: var(--yellow);
+    color: var(--dk-blue);
+    font-weight: bold;
+}
+
+
 .btn:hover {
     background-color: var(--mid-blue);
     color: var(--dk-blue);
 }
 
-#our-goals {
-    height: 700px;
-    overflow: hidden;
-}
-
+/* our goals section */
 .section-title {
     font-family: 'Fredoka One', cursive;
     color: var(--dk-blue);
@@ -157,6 +158,7 @@ li a:hover {
 
 }
 
+/*our team section */
 .our-team {
     margin-top: 25px;
 }
@@ -172,7 +174,7 @@ li a:hover {
 
 #team-btn {
     position: relative;
-    left: 35%;
+    left: 37%;
     bottom: 10px;
 }
 
@@ -184,6 +186,7 @@ li a:hover {
     margin-top: 25px;
 }
 
+/* footer */
 .smedia-links {
     padding-top: 30px;
 }
