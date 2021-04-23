@@ -65,33 +65,19 @@ li a:hover {
 }
 
 
-
-#hero-outer {
-    height: 700px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-#hero-image {
+.helpus {
     height: 700px;
     width: 100%;
     background: url("../images/HEROIMAGE.jpg") no-repeat center center;
 }
 
-#hero-text {
+.helpus-text {
     font-size: 5rem;
-    background-color: rgba(177, 186, 222, .7);
+    background-color: rgba(177, 186, 222, .6);
     color: var(--dk-blue);
     padding: 40px 40px 0 40px;
-    position: relative;
-    top: 400px;
-    width: 70%;
 
-}
 
-#hero-text h2 {
-    font-weight: bold;
 }
 
 .btn {
@@ -100,7 +86,7 @@ li a:hover {
     font-weight: bold;
 }
 
-#hero-btn {
+.helpus-btn {
     position: relative;
     left: 50%;
     bottom: 50%;
