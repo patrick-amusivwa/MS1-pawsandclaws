@@ -205,3 +205,20 @@ li a:hover {
     float: right;
     text-align: right;
 }
+
+/*about page jumbo */
+.about-jumbo {
+    background: url("../images/ABOUTJUMBOIMAGE.jpg") no-repeat center center;
+}
+
+
+
+.about-jumbo-text {
+    font-size: 5rem;
+    background-color: rgba(177, 186, 222, .7);
+    color: var(--dk-blue);
+    text-align: center;
+    padding: 40px;
+
+
+}
