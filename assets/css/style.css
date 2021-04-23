@@ -180,6 +180,7 @@ li a:hover {
 
 .our-team-image {
     height: 700px;
+    width: 100%;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     opacity: 0.5;
