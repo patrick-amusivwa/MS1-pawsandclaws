@@ -231,7 +231,28 @@ li a:hover {
     }
 
 }
+/*About Us section*/
+.about-text {
+   text-align: left;
+    font-size: 110%;
+    line-height: 35px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px; 
+}
 
+/*location section*/
+.location-text {
+    text-align: left;
+    font-size: 110%;
+    line-height: 35px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px; 
+}
+}
 /*Contact Us*/
 
 #form-section {
