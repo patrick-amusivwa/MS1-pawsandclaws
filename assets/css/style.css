@@ -79,6 +79,8 @@ li a:hover {
 /*jumbotron on index page */
 .helpus {
     background: url("../images/HEROIMAGE.jpg") no-repeat center center;
+    min-height: 500px;
+    background-size: cover;
 }
 
 .helpus-text {
@@ -160,7 +162,6 @@ li a:hover {
 }
 
 
-
 /*our team section */
 .our-team {
     margin-top: 25px;
@@ -177,12 +178,11 @@ li a:hover {
 
 
 .our-team-image {
+    background: url("../images/OURTEAMIMAGE.jpg") no-repeat center center;
     height: 700px;
-    width: 100%;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
     opacity: 0.5;
-    margin-top: 75px;
+    margin-top: 50px;
+    background-size: cover;
 }
 
 /* footer */
@@ -210,6 +210,7 @@ li a:hover {
 .about-jumbo {
     background: url("../images/ABOUTJUMBOIMAGE.jpg") no-repeat center center;
     background-size: cover;
+
 }
 
 
@@ -235,6 +236,7 @@ li a:hover {
 
 #form-section {
     background: url("../images/pexels-josh-hild-2820134 (2).jpg") no-repeat center center;
+
 }
 
 .form {
