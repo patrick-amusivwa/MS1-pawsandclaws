@@ -32,11 +32,18 @@ header, footer {
     padding: 1rem;
     display: flex;
 }
+header {
+    height: 60px;
+    font-size: 1.25rem;
+}
 
+nav {
+    background-color: var(--mid-blue);
+}
 
 .navbar-brand {
     font-family: 'Fredoka One', cursive;
-    font-size: 1.50rem;
+    font-size: 1.75rem;
     letter-spacing: 0.25rem;
     color: var(--yellow);
 }
@@ -47,7 +54,7 @@ header, footer {
 
 .navbar-toggler {
     background-color: var(--yellow);
-    float:right;
+    
 }
 
 li a {
@@ -61,10 +68,13 @@ li a:hover {
     color: var(--yellow);
 }
 
-
-.navbar-nav > li > .dropdown-menu { 
+.nav-item {
+    background-color: var(--mid-blue); 
+}
+.dropdown-menu { 
     background-color: var(--off-white); 
 }
+
 
 /*jumbotron on index page */
 .helpus {
@@ -87,6 +97,9 @@ li a:hover {
     position: relative;
     left: 50%;
     bottom: 50%;
+}
+@media screen and (max-width:416px) {
+    .helpus-text {margin-top: 50px;}
 }
 
 /* general button styling */
@@ -208,11 +221,11 @@ li a:hover {
 }
 
 /*about page jumbo */
+
 .about-jumbo {
     background: url("../images/ABOUTJUMBOIMAGE.jpg") no-repeat center center;
     background-size: cover;
 }
-
 
 
 .about-jumbo-text {
@@ -231,4 +244,21 @@ li a:hover {
       margin:0;
     }
 
+}
+
+/*Contact Us*/
+
+#form-section {
+    background: url("../images/pexels-josh-hild-2820134 (2).jpg") no-repeat center center;
+}
+
+.form {
+    background-color: rgba(177, 186, 222, .7);
+    color: var(--dk-blue);
+    padding: 40px;
+
+}
+
+.freetextinput {
+    height: 700px;
 }
