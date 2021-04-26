@@ -93,11 +93,7 @@ li a:hover {
     font-size: 1.75rem;
 }
 
-.helpus-btn {
-    position: relative;
-    left: 50%;
-    bottom: 50%;
-}
+
 @media screen and (max-width:416px) {
     .helpus-text {margin-top: 50px;}
 }
@@ -127,7 +123,7 @@ li a:hover {
 }
 
 #left-about {
-    height: 100%;
+    min-height: 100%;
     margin-top: 25px;
 }
 
@@ -142,12 +138,12 @@ li a:hover {
 }
 
 #center-about {
-    height: 100%;
+    min-height: 100%;
     margin-top: 25px;
 }
 
 #right-about {
-    height: 700px;
+    min-height: 700px;
     margin-top: 25px;
 }
 
@@ -185,11 +181,6 @@ li a:hover {
     text-align: center;
 }
 
-#team-btn {
-    position: relative;
-    left: 37%;
-    bottom: 10px;
-}
 
 .our-team-image {
     height: 700px;
