@@ -26,7 +26,7 @@
 <body>
     <!--Navbar-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-custom">
+        <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
             <a class="navbar-brand" href="index.html">Paws and Claws <i class="fas fa-paw" aria-hidden="true"></i></a>
             <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -69,7 +69,96 @@
             </div>
         </nav>
     </header>
-        <!--Footer-->
+    <!--Form Description-->
+    <div id="form-section">
+        <form method="post" action="https://formdump.codeinstitute.net/" class="contactus-form">
+            <div class="form">
+                <h2>Contact Us</h2>
+                <div class="row">
+                    <div class="col-6">
+                        <input type="text" class="form-control" id="inputFName" placeholder="First name" required="required">
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="form-control" id="inputLName" placeholder="Last name" required="required">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email" required="required">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="number" class="form-control" id="inputNumber" placeholder="Telephone (optional)">
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Address (optional)">
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <p>Please contact me via:</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="email" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Email
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="telephone" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Telephone
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="post" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Post
+                                </label>
+                            </div> 
+                        </div>
+                        <div class="col-6 ml-auto">
+                            <p>Why do you want to contact us today?</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                    I'd like to volunteer
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                    value="option2">
+                                <label class="form-check-label" for="gridRadios2">
+                                    I'd like to know more about your charity
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                    value="option1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                    I'd like to set up a regular donation
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                    I'd like some advice on pet keeping
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                <label class="form-check-label" for="gridRadios1">
+                                    I'd like more information on the adoption process
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <input type="text" class="form-control" id="inputQuery" placeholder="Please type your query here." required="required">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!--Form-->
+    <!--Form Buttons-->
+    <!--Footer-->
     <footer>
         <div class="container-fluid">
             <div class="row">
