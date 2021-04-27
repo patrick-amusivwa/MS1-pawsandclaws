@@ -46,6 +46,7 @@ nav {
     font-size: 1.75rem;
     letter-spacing: 0.25rem;
     color: var(--yellow);
+    padding-left: 40px;
 }
 
 .navbar-brand:hover {
@@ -252,21 +253,26 @@ li a:hover {
     margin-left: 40px;
     margin-right: 40px; 
 }
-}
+
 /*Contact Us*/
 
-#form-section {
-    background: url("../images/pexels-josh-hild-2820134 (2).jpg") no-repeat center center;
-
+.form {
+    background: url("../images/FORMIMAGE.jpg") no-repeat center center;
+    background-size: cover;
 }
 
-.form {
+.form-input {
     background-color: rgba(177, 186, 222, .7);
     color: var(--dk-blue);
     padding: 40px;
+ }
+
+p, label {
+    font-size: 110%;
+    line-height: 35px;
 
 }
-
 .freetextinput {
     height: 700px;
 }
+
