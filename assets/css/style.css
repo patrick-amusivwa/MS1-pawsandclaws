@@ -334,3 +334,36 @@ p, label {
 @media screen and (max-width:417px) {
     .marley-jumbo {margin-top: 50px;}
 }
+
+/*Lassie's page*/ 
+.lassie-jumbo {
+    background: url("../images/lassie.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.lassie-jumbo-text {
+    font-size: 5rem;
+    background-color: rgba(177, 186, 222, .7);
+    color: var(--dk-blue);
+    padding: 40px;
+    margin: 7rem;
+
+}
+.lassie-text {
+    text-align: left;
+    font-size: 110%;
+    line-height: 35px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px; 
+
+}
+
+
+.lassie-img {
+    background: url("../images/lassie2.jpg") no-repeat center center;
+    background-size: cover;
+    height: 700px;
+    margin-top: 50px;
+}
