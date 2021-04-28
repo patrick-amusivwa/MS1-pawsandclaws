@@ -97,7 +97,7 @@ li a:hover {
 }
 
 
-@media screen and (max-width:416px) {
+@media screen and (max-width:457px) {
     .helpus-text {margin-top: 50px;}
 }
 
@@ -276,3 +276,29 @@ p, label {
     height: 700px;
 }
 
+/*Marley's Page*/
+
+.marley-jumbo {
+    background: url("../images/marley-jumbo.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.marley-jumbo-text {
+    font-size: 5rem;
+    background-color: rgba(177, 186, 222, .7);
+    color: var(--dk-blue);
+    padding: 40px;
+    margin: 7rem;
+}
+
+@media (max-width: 600px) {
+    .marley-jumbo-text {
+      padding:0;
+      margin:0;
+    }
+
+}
+
+@media screen and (max-width:457px) {
+    .marley-jumbo {margin-top: 50px;}
+}
