@@ -76,6 +76,13 @@ li a:hover {
     background-color: var(--off-white); 
 }
 
+@media screen and (max-width:500px){
+     .navbar-brand {padding-left: 0px;}
+}
+@media screen and (max-width: 331px){
+    .navbar-brand {font-size: 1.50rem;}
+}
+
 
 /*jumbotron on index page */
 .helpus {
@@ -232,9 +239,15 @@ li a:hover {
     }
 
 }
+
+
+@media screen and (max-width:435px) {
+    .about-jumbo {margin-top: 50px;}
+}
+
 /*About Us section*/
 .about-text {
-   text-align: left;
+    text-align: left;
     font-size: 110%;
     line-height: 35px;
     margin-bottom: 50px;
@@ -291,13 +304,26 @@ p, label {
     margin: 7rem;
 
 }
+.marley-text {
+    text-align: left;
+    font-size: 110%;
+    line-height: 35px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px; 
+
+}
+
 
 .marley-img {
     background: url("../images/marley-img.jpg") no-repeat center center;
     background-size: cover;
     height: 700px;
+    margin-top: 50px;
 }
-@media (max-width: 600px) {
+
+@media (max-width: 417px) {
     .marley-jumbo-text {
       padding:0;
       margin:0;
@@ -305,6 +331,6 @@ p, label {
 
 }
 
-@media screen and (max-width:457px) {
+@media screen and (max-width:417px) {
     .marley-jumbo {margin-top: 50px;}
 }
