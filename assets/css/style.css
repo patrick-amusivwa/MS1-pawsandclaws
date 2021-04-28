@@ -289,8 +289,14 @@ p, label {
     color: var(--dk-blue);
     padding: 40px;
     margin: 7rem;
+
 }
 
+.marley-img {
+    background: url("../images/marley-img.jpg") no-repeat center center;
+    background-size: cover;
+    height: 700px;
+}
 @media (max-width: 600px) {
     .marley-jumbo-text {
       padding:0;
