@@ -86,7 +86,7 @@ li a:hover {
 
 /*jumbotron on index page */
 .helpus {
-    background: url("../images/HEROIMAGE.jpg") no-repeat center center;
+    background: url("../images/index-hero.jpg") no-repeat center center;
     min-height: 500px;
     background-size: cover;
 }
@@ -149,7 +149,7 @@ li a:hover {
 
 #center-about {
     height:100%;
-    background: url("../images/GOALSIMAGE.jpg") no-repeat center center;
+    background: url("../images/our-goals.jpg") no-repeat center center;
 }
 
 #right-about {
@@ -186,7 +186,7 @@ li a:hover {
 
 
 .our-team-image {
-    background: url("../images/OURTEAMIMAGE.jpg") no-repeat center center;
+    background: url("../images/our-team.jpg") no-repeat center center;
     height: 700px;
     opacity: 0.5;
     margin-top: 50px;
@@ -216,7 +216,7 @@ li a:hover {
 /*about page jumbo */
 
 .about-jumbo {
-    background: url("../images/ABOUTJUMBOIMAGE.jpg") no-repeat center center;
+    background: url("../images/about-jumbo.jpg") no-repeat center center;
     background-size: cover;
 
 }
@@ -270,7 +270,7 @@ li a:hover {
 /*Contact Us*/
 
 .form {
-    background: url("../images/FORMIMAGE.jpg") no-repeat center center;
+    background: url("../images/form-background.jpg") no-repeat center center;
     background-size: cover;
 }
 
