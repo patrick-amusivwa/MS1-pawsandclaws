@@ -271,6 +271,11 @@ iframe {
     margin-right: 40px; 
 }
 
+.in-text-link a {
+    color: var(--dk-blue);
+    font-weight: bold;
+}
+
 /*location section*/
 .location-text {
     text-align: left;
