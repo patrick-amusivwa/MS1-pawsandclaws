@@ -280,6 +280,11 @@ li a:hover {
     padding: 40px;
  }
 
+ .form-group-row {
+    padding: 40px;
+ }
+
+
 p, label {
     font-size: 110%;
     line-height: 35px;
@@ -288,6 +293,7 @@ p, label {
 .freetextinput {
     height: 700px;
 }
+
 
 /*Marley's Page*/
 
