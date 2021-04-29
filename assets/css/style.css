@@ -380,3 +380,15 @@ p, label {
     height: 700px;
     margin-top: 50px;
 }
+
+@media (max-width: 417px) {
+    .lassie-jumbo-text {
+      padding:0;
+      margin:0;
+    }
+
+}
+
+@media screen and (max-width:417px) {
+    .lassie-jumbo {margin-top: 50px;}
+}
