@@ -280,9 +280,6 @@ li a:hover {
     padding: 40px;
  }
 
- .form-group-row {
-    padding: 40px;
- }
 
 
 p, label {
@@ -292,6 +289,10 @@ p, label {
 }
 .freetextinput {
     height: 700px;
+}
+
+.btn-submit {
+    margin-top: 40px;
 }
 
 
