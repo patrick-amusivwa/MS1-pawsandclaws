@@ -336,13 +336,13 @@ p, label {
     margin: 7rem;
 
     /*fade in text animation */
+    animation: fadeIn linear 4s;
     -webkit-animation: fadeIn linear 4s;
     -moz-animation: fadeIn linear 4s;
     -o-animation: fadeIn linear 4s;
     -ms-animation: fadeIn linear 4s;
 }
 
-}
 .marley-text {
     text-align: left;
     font-size: 110%;
