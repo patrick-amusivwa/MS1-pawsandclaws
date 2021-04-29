@@ -208,8 +208,8 @@ transform: scale(1.1);
 }
 .smedia-links a{
     color: var(--dk-blue);
-    font-size: 175%;
-    letter-spacing: 2px;
+    font-size: 200%;
+    letter-spacing: 10px;
 }
 
 .smedia-links a:hover {
@@ -220,6 +220,7 @@ transform: scale(1.1);
 .contact {
     float: right;
     text-align: right;
+    font-weight: bold;
 }
 
 /*about page jumbo */
@@ -323,6 +324,41 @@ p, label {
 
 /*Marley's Page*/
 
+.animal-jumbo {
+/*fade in text animation */
+    animation: fadeIn linear 4s;
+    -webkit-animation: fadeIn linear 4s;
+    -moz-animation: fadeIn linear 4s;
+    -o-animation: fadeIn linear 4s;
+    -ms-animation: fadeIn linear 4s;
+}
+
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
 .marley-jumbo {
     background: url("../images/marley-jumbo.jpg") no-repeat center center;
     background-size: cover;
@@ -335,12 +371,7 @@ p, label {
     padding: 40px;
     margin: 7rem;
 
-    /*fade in text animation */
-    animation: fadeIn linear 4s;
-    -webkit-animation: fadeIn linear 4s;
-    -moz-animation: fadeIn linear 4s;
-    -o-animation: fadeIn linear 4s;
-    -ms-animation: fadeIn linear 4s;
+
 }
 
 .marley-text {
@@ -387,38 +418,7 @@ p, label {
     color: var(--dk-blue);
     padding: 40px;
     margin: 7rem;
-    animation: fadeIn linear 4s;
     
-    /*fade in text animation */
-    -webkit-animation: fadeIn linear 4s;
-    -moz-animation: fadeIn linear 4s;
-    -o-animation: fadeIn linear 4s;
-    -ms-animation: fadeIn linear 4s;
-}
-
-@keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-
-@-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
 }
 
 .lassie-text {
@@ -465,13 +465,6 @@ p, label {
     color: var(--dk-blue);
     padding: 40px;
     margin: 7rem;
-    animation: fadeIn linear 4s;
-    
-    /*fade in text animation */
-    -webkit-animation: fadeIn linear 4s;
-    -moz-animation: fadeIn linear 4s;
-    -o-animation: fadeIn linear 4s;
-    -ms-animation: fadeIn linear 4s;
 }
 
 .felix-text {
