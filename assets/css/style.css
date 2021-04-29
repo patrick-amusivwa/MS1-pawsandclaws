@@ -113,12 +113,21 @@ li a:hover {
     background-color: var(--yellow);
     color: var(--dk-blue);
     font-weight: bold;
+    border: none;
 }
 
 
 .btn:hover {
-    background-color: var(--mid-blue);
+    background-color: var(--yellow);
     color: var(--dk-blue);
+}
+
+.grow { 
+transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+transform: scale(1.1); 
 }
 
 /* our goals section */
