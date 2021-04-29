@@ -316,6 +316,13 @@ p, label {
     padding: 40px;
     margin: 7rem;
 
+    /*fade in text animation */
+    -webkit-animation: fadeIn linear 4s;
+    -moz-animation: fadeIn linear 4s;
+    -o-animation: fadeIn linear 4s;
+    -ms-animation: fadeIn linear 4s;
+}
+
 }
 .marley-text {
     text-align: left;
@@ -335,6 +342,7 @@ p, label {
     height: 700px;
     margin-top: 50px;
 }
+
 
 @media (max-width: 417px) {
     .marley-jumbo-text {
@@ -360,8 +368,40 @@ p, label {
     color: var(--dk-blue);
     padding: 40px;
     margin: 7rem;
-
+    animation: fadeIn linear 4s;
+    
+    /*fade in text animation */
+    -webkit-animation: fadeIn linear 4s;
+    -moz-animation: fadeIn linear 4s;
+    -o-animation: fadeIn linear 4s;
+    -ms-animation: fadeIn linear 4s;
 }
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
 .lassie-text {
     text-align: left;
     font-size: 110%;
