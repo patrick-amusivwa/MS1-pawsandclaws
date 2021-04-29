@@ -451,3 +451,56 @@ p, label {
 @media screen and (max-width:417px) {
     .lassie-jumbo {margin-top: 50px;}
 }
+
+/*felix's page*/ 
+
+.felix-jumbo {
+    background: url("../images/felix-jumbo.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.felix-jumbo-text {
+    font-size: 5rem;
+    background-color: rgba(177, 186, 222, .7);
+    color: var(--dk-blue);
+    padding: 40px;
+    margin: 7rem;
+    animation: fadeIn linear 4s;
+    
+    /*fade in text animation */
+    -webkit-animation: fadeIn linear 4s;
+    -moz-animation: fadeIn linear 4s;
+    -o-animation: fadeIn linear 4s;
+    -ms-animation: fadeIn linear 4s;
+}
+
+.felix-text {
+    text-align: left;
+    font-size: 110%;
+    line-height: 35px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px; 
+
+}
+
+
+.felix-img {
+    background: url("../images/pexels-anna-shvets-4588443\ \(1\).jpg") no-repeat center center;
+    background-size: cover;
+    height: 700px;
+    margin-top: 50px;
+}
+
+@media (max-width: 417px) {
+    .felix-jumbo-text {
+      padding:0;
+      margin:0;
+    }
+
+}
+
+@media screen and (max-width:417px) {
+    .felix-jumbo {margin-top: 50px;}
+}
