@@ -307,7 +307,9 @@ iframe {
     padding-left: 0px;
  }
 
-
+.input {
+    padding-bottom: 10px;
+}
 
 p, label {
     font-size: 110%;
@@ -316,7 +318,8 @@ p, label {
 }
 
 .contact-pref {
-    margin-bottom: 10px;
+ 
+   margin-bottom: 10px;
 }
 
 .freetextinput {
