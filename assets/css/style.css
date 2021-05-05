@@ -408,7 +408,7 @@ p, label {
 
 /*Lassie's page*/ 
 .lassie-jumbo {
-    background: url("../images/lassie.jpg") no-repeat center center;
+    background: url("../images/lassie-jumbo.jpg") no-repeat center center;
     background-size: cover;
 }
 
@@ -434,7 +434,7 @@ p, label {
 
 
 .lassie-img {
-    background: url("../images/lassie2.jpg") no-repeat center center;
+    background: url("../images/lassie-img.jpg") no-repeat center center;
     background-size: cover;
     height: 700px;
     margin-top: 50px;
