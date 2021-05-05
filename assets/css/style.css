@@ -203,6 +203,17 @@ transform: scale(1.1);
 }
 
 /* footer */
+
+
+/*footer*/
+
+footer {
+    background-color: var(--off-white);
+    border-top: 10px solid var(--mid-blue);
+    padding: 1rem;
+    display: flex;
+}
+
 .smedia-links {
     padding-top: 30px;
 }
@@ -214,7 +225,7 @@ transform: scale(1.1);
 
 .smedia-links a:hover {
     text-decoration: none;
-    color: var(--yellow);
+    color: var(--mid-blue);
 }
 
 .contact {
@@ -502,13 +513,4 @@ p, label {
 
 @media screen and (max-width:417px) {
     .felix-jumbo {margin-top: 50px;}
-}
-
-/*footer*/
-
-footer {
-    background-color: var(--off-white);
-    border-top: 10px solid var(--mid-blue);
-    padding: 1rem;
-    display: flex;
 }
