@@ -202,7 +202,6 @@ transform: scale(1.1);
     background-size: cover;
 }
 
-/* footer */
 
 
 /*footer*/
@@ -313,6 +312,13 @@ iframe {
     margin-bottom: 40px;
  
  }
+ @media (max-width: 820px) {
+    .form-input {
+      padding:0 10px 40px 10px;
+      margin:0;
+    }
+
+}
 
  .form-title {
     margin-left: 0px;
@@ -332,10 +338,6 @@ p, label {
 .contact-pref {
  
    margin-bottom: 10px;
-}
-
-.freetextinput {
-    height: 700px;
 }
 
 .btn-submit {
@@ -466,9 +468,6 @@ p, label {
 
 }
 
-@media screen and (max-width:417px) {
-    .lassie-jumbo {margin-top: 50px;}
-}
 
 /*felix's page*/ 
 
