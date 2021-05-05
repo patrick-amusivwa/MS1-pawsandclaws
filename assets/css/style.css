@@ -47,15 +47,12 @@ nav {
     padding-left: 40px;
 }
 
-
-
 .navbar-brand:hover {
     color: var(--yellow);
 }
 
 .navbar-toggler {
     background-color: var(--yellow);
-    
 }
 
 li a {
@@ -72,6 +69,7 @@ li a:hover {
 .nav-item {
     background-color: var(--mid-blue); 
 }
+
 .dropdown-menu { 
     background-color: var(--off-white); 
 }
@@ -79,10 +77,10 @@ li a:hover {
 @media screen and (max-width:500px){
      .navbar-brand {padding-left: 0px;}
 }
+
 @media screen and (max-width: 419px){
     .navbar-brand {font-size: 1.05rem;}
 }
-
 
 /*jumbotron on index page */
 .helpus {
@@ -96,15 +94,11 @@ li a:hover {
     background-color: rgba(177, 186, 222, .7);
     color: var(--dk-blue);
     padding: 40px;
-
-
 }
+
 .helpus-text p {
     font-size: 1.75rem;
 }
-
-
-
 
 /* general button styling */
 .btn {
@@ -114,11 +108,11 @@ li a:hover {
     border: none;
 }
 
-
 .btn:hover {
     background-color: var(--yellow);
     color: var(--dk-blue);
 }
+
 /* grow animation from https://travis.media/how-to-make-an-item-grow-on-hover-with-css*/
 .grow { 
 transition: all .2s ease-in-out; 
@@ -136,7 +130,6 @@ transform: scale(1.1);
     margin-top: 25px;
     margin-left: 10px;
     padding-left: 40px;
-
 }
 
 #left-about {
@@ -172,10 +165,7 @@ transform: scale(1.1);
     margin-top: 50px;
     margin-left: 40px;
     margin-right: 40px;
-
-
 }
-
 
 /*our team section */
 .our-team {
@@ -191,7 +181,6 @@ transform: scale(1.1);
     text-align: justify;
 }
 
-
 .our-team-image {
     background: url("../images/our-team.jpg") no-repeat center center;
     height: 700px;
@@ -200,10 +189,7 @@ transform: scale(1.1);
     background-size: cover;
 }
 
-
-
 /*footer*/
-
 footer {
     background-color: var(--off-white);
     border-top: 10px solid var(--mid-blue);
@@ -214,6 +200,7 @@ footer {
 .smedia-links {
     padding-top: 30px;
 }
+
 .smedia-links a{
     color: var(--dk-blue);
     font-size: 200%;
@@ -232,13 +219,10 @@ footer {
 }
 
 /*about page jumbo */
-
 .about-jumbo {
     background: url("../images/about-jumbo.jpg") no-repeat center center;
     background-size: cover;
-
 }
-
 
 .about-jumbo-text {
     font-size: 5rem;
@@ -247,7 +231,6 @@ footer {
     text-align: center;
     padding: 40px;
     margin: 7rem;
-
 }
 
 iframe {
@@ -261,11 +244,7 @@ iframe {
       padding:0;
       margin:0;
     }
-
 }
-
-
-
 
 /*About Us section*/
 .about-text {
@@ -295,7 +274,6 @@ iframe {
 }
 
 /*Contact Us*/
-
 .form {
     background: url("../images/form-background.jpg") no-repeat center center;
     background-size: cover;
@@ -308,14 +286,13 @@ iframe {
     padding: 40px;
     margin-top: 40px;
     margin-bottom: 40px;
- 
  }
+
  @media (max-width: 820px) {
     .form-input {
       padding:0 10px 40px 10px;
       margin:0;
     }
-
 }
 
  .form-title {
@@ -330,12 +307,9 @@ iframe {
 p, label {
     font-size: 110%;
     line-height: 35px;
-
 }
 
-
-.contact-pref {
- 
+.contact-pref { 
    margin-bottom: 10px;
 }
 
@@ -343,9 +317,7 @@ p, label {
     margin-top: 40px;
 }
 
-
 /*Marley's Page*/
-
 .animal-jumbo {
 /*fade in text animation */
     animation: fadeIn linear 4s;
@@ -354,7 +326,6 @@ p, label {
     -o-animation: fadeIn linear 4s;
     -ms-animation: fadeIn linear 4s;
 }
-
 
 @keyframes fadeIn {
   0% {opacity:0;}
@@ -392,8 +363,6 @@ p, label {
     color: var(--dk-blue);
     padding: 40px;
     margin: 7rem;
-
-
 }
 
 .marley-text {
@@ -404,9 +373,7 @@ p, label {
     margin-top: 50px;
     margin-left: 40px;
     margin-right: 40px; 
-
 }
-
 
 .marley-img {
     background: url("../images/marley-img.jpg") no-repeat center center;
@@ -415,15 +382,12 @@ p, label {
     margin-top: 50px;
 }
 
-
 @media (max-width: 417px) {
     .marley-jumbo-text {
       padding:0;
       margin:0;
     }
-
 }
-
 
 /*Lassie's page*/ 
 .lassie-jumbo {
@@ -436,8 +400,7 @@ p, label {
     background-color: rgba(177, 186, 222, .7);
     color: var(--dk-blue);
     padding: 40px;
-    margin: 7rem;
-    
+    margin: 7rem;    
 }
 
 .lassie-text {
@@ -448,9 +411,7 @@ p, label {
     margin-top: 50px;
     margin-left: 40px;
     margin-right: 40px; 
-
 }
-
 
 .lassie-img {
     background: url("../images/lassie-img.jpg") no-repeat center center;
@@ -464,12 +425,9 @@ p, label {
       padding:0;
       margin:0;
     }
-
 }
 
-
 /*felix's page*/ 
-
 .felix-jumbo {
     background: url("../images/felix-jumbo.jpg") no-repeat center center;
     background-size: cover;
@@ -491,9 +449,7 @@ p, label {
     margin-top: 50px;
     margin-left: 40px;
     margin-right: 40px; 
-
 }
-
 
 .felix-img {
     background: url("../images/felix-img.jpg") no-repeat center center;
@@ -507,7 +463,6 @@ p, label {
       padding:0;
       margin:0;
     }
-
 }
 
 @media screen and (max-width:417px) {
