@@ -313,6 +313,11 @@ p, label {
     line-height: 35px;
 
 }
+
+.contact-pref {
+    margin-bottom: 10px;
+}
+
 .freetextinput {
     height: 700px;
 }
