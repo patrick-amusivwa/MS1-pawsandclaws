@@ -49,6 +49,8 @@ nav {
     padding-left: 40px;
 }
 
+
+
 .navbar-brand:hover {
     color: var(--yellow);
 }
@@ -79,8 +81,8 @@ li a:hover {
 @media screen and (max-width:500px){
      .navbar-brand {padding-left: 0px;}
 }
-@media screen and (max-width: 331px){
-    .navbar-brand {font-size: 1.50rem;}
+@media screen and (max-width: 419px){
+    .navbar-brand {font-size: 1.05rem;}
 }
 
 
