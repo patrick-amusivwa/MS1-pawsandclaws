@@ -297,6 +297,9 @@ iframe {
     background-color: rgba(177, 186, 222, .7);
     color: var(--dk-blue);
     padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ 
  }
 
  .form-title {
