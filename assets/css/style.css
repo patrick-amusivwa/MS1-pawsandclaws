@@ -106,9 +106,7 @@ li a:hover {
 }
 
 
-@media screen and (max-width:457px) {
-    .helpus-text {margin-top: 50px;}
-}
+
 
 /* general button styling */
 .btn {
@@ -259,9 +257,7 @@ iframe {
 }
 
 
-@media screen and (max-width:435px) {
-    .about-jumbo {margin-top: 50px;}
-}
+
 
 /*About Us section*/
 .about-text {
@@ -409,9 +405,6 @@ p, label {
 
 }
 
-@media screen and (max-width:417px) {
-    .marley-jumbo {margin-top: 50px;}
-}
 
 /*Lassie's page*/ 
 .lassie-jumbo {
