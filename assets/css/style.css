@@ -326,7 +326,7 @@ p, label {
 
 /*Marley's Page*/
 .animal-jumbo {
-/*fade in text animation */
+/*fade in text animation from https://blog.hubspot.com/website/css-fade-in*/
     animation: fadeIn linear 4s;
     -webkit-animation: fadeIn linear 4s;
     -moz-animation: fadeIn linear 4s;
