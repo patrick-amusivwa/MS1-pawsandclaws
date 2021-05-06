@@ -280,8 +280,7 @@ iframe {
 }
 
 .form-input {
-    background-color: rgba(177, 186, 222, .7);
-    backdrop-filter: blur(1rem);
+    background-color: rgba(177, 186, 222, .9);
     color: var(--dk-blue);
     padding: 40px;
     margin-top: 40px;
