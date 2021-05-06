@@ -196,7 +196,7 @@ transform: scale(1.1);
 
 /*footer*/
 footer {
-    background-color: var(--off-white);
+    background-color: var(--grey);
     border-top: 10px solid var(--mid-blue);
     padding: 1rem;
     display: flex;
@@ -214,7 +214,6 @@ footer {
 
 .smedia-links a:hover {
     text-decoration: none;
-    color: var(--mid-blue);
 }
 
 .contact {
