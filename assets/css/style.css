@@ -464,7 +464,3 @@ p, label {
       margin:0;
     }
 }
-
-@media screen and (max-width:417px) {
-    .felix-jumbo {margin-top: 50px;}
-}
