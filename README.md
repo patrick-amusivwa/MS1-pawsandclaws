@@ -164,7 +164,7 @@ Descriptions, author’s name, and keywords were included in the head element to
 ### Testing 
 #### Validator Results 
 
-For validation results, please see assets/images/validator-results. 
+For validation results, please see validator-results folder. 
 
 #### Usability Testing
 
