@@ -163,10 +163,15 @@ Descriptions, author’s name, and keywords were included in the head element to
 
 ### Testing 
 #### Validator Results 
-![alt text](https://github.com/graceedev/MS1-pawsandclaws/blob/master/assets/images/validator-results/2021-05-06.jpg?raw=true)
 
-1.	Navbar links work and the user is directed to the correct page on click – PASS
-2.	Logo takes the user back to the home page – PASS
-3.	External links open to new tab – PASS
-4.	All form inputs are sent to the server and are clearly named for readability – PASS
-5.	All required form inputs request input before submission – PASS
+For validation results, please see assets/images/validator-results. 
+
+#### Usability Testing
+
+#### Browser Compatibility 
+
+#### OS Compatibility 
+
+#### Performance Testing
+
+#### User Stories
