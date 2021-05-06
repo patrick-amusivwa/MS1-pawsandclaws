@@ -14,7 +14,7 @@ Reasons a user might visit the website:
 * A user that wishes to volunteer with the charity. 
 * A user that wishes to find out more about what the charity does. 
 * A user might wish to contact the charity for more information. 
-* A user might want to know about previous success stories before relinquishing their pet to Paws and Claws. 
+* A user might want to know about previous success stories before relinquishing their pet/adopting from Paws and Claws. 
 
 Reasons for the website: 
 * Increase awareness of the charity. 
@@ -152,7 +152,6 @@ Descriptions, author’s name, and keywords were included in the head element to
 * Google fonts 
 * Balsamiq wireframe 
 * Font Awesome 
-* Beautifer 
 * Tiny PNG 
 * ResizePixel
 
@@ -160,6 +159,8 @@ Descriptions, author’s name, and keywords were included in the head element to
 * HTML Validator 
 * CSS Validator
 * DEV Tools – Lighthouse
+* Wave
+* Lambdatest
 
 ### Testing 
 #### Validator Results 
@@ -168,10 +169,73 @@ For validation results, please see validator-results folder.
 
 #### Usability Testing
 
+This website has been tested on screen sizes ranging from 320px to 1693px using developer tools. All links are functional and the website is well presented between these sizes.
+On screens bigger than 1500px, the website is still functional and no elements stretch or warp. Text remains clear on very small to very large sizes.
+
+Wave was used to asses the accessibility of the website. No errors or contrast errors were present. 
+It also identified that the page structure was adequate with h1 to h4 text present in correct order.
+
 #### Browser Compatibility 
 
-#### OS Compatibility 
+The website has been tested on Chrome, Safari, Mozilla, Microsoft Edge and Internet Explorer using Browserstack and Lambdatest.
+The website works as expected on Chrome and Edge. Mozilla presents a slightly different font on the navbar links, but is still entirely functional and readable.
+Internet Explorer and Safari do not load the jumbo background-images, but the background colour is present so text is still readable.
+Internet Explorer does not load colors changed in the root variable, but instead reverts back to basic Bootstrap styling. This is a known problem with IE and as
+this browser is increasingly unpopular, it has been left unchanged.  
+
+#### OS Compatibiility 
+
+The website's functionality on Android and Apple phone products was tested via Lambdatest. Both were functional and well presented, though the products using Safari did not load background images to the jumbos.
 
 #### Performance Testing
 
+Following checks using lighthouse, the footer colour was changed to an off white so there was sufficient contrast between the text and background. 
+To ensure it remained distinct from the rest of the webpage, a mid-blue border top was added. Rel=noopener value was added to all external links with a target=_blank attribute
+to ensure security. 
+
+##### Lighthouse Scores After Changes
+
+For Desktop: 93 Performance
+             100 Accessibility
+             87 Best Practice
+             89 SEO 
+For Mobile: 85 Performance 
+            98 Accessibility
+            87 Best Practice
+            91 SEO
+
 #### User Stories
+* A user that wishes to donate to the charity immediately.
+The user can find a donate button immediately on the home page in a prominent positon. The button is clearly labelled and in a central position.
+
+* A user that wishes to volunteer with the charity.
+The user can find the relevent form quickly by using the navbar. There is also a Volunteer With Us button at the bottom of the home page, under a clear header.
+The form has an existing option to request information about volunteering. 
+
+* A user that wishes to find out more about what the charity does. 
+The home page hero image has text which makes it explicit what the charity aims to do. The home page has a goals section immediately below the hero image.
+This outlines the ethos of the charity and their facilities. There is a clearly named About page in the navbar which explains the charity's history, location and owners.
+
+* A user might wish to contact the charity for more information. 
+There are numerous Contact Us buttons on the site that lead to the Contact Us form. The contact us form has an existing option to request more information, and a section to state contact preference.
+There is also a free text area where users can write details of their query. There is also contact us details in the footer on the right hand-side, incase users do not wish to fill out the form.
+
+* A user might want to know about previous success stories before relinquishing their pet/adopting from Paws and Claws. 
+There is a section detailing the circumstances that have found animals with Paws and Claws. There is a judgement free approach to talking about their previous circumstances. 
+Each animal's page details their care, what training they have under gone and whether they are available for adoption. There is also crucial information relating to the animal's care (e.g special dietry requirements).
+
+### Deployment
+
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/hschafer2017/HSCHAFER-Portfolio.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+
+### Credits
+All code, unless otherwise specified, was written by me. 
+Thank you to Code Institute for supplying the template that this website uses. 
+The responsive navbar was initially created from a tutorial w3schools. 
+The fade in animations on the Success Stories pages was from https://blog.hubspot.com/website/css-fade-in and used in conjunction with bootstrap. 
+The grow animation was found at https://travis.media/how-to-make-an-item-grow-on-hover-with-css*/. 
+
+Thanks to my mentor, Brian Macharia, for excellent support and advice during the creation of this website. 
+Thanks to everyone on the Code Institute slack group, especially in #newbies, who were exceptionally helpful in finding solutions to faults. 
