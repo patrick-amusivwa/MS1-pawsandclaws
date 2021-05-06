@@ -57,3 +57,116 @@ This website will consist of
 The main colour for the website is a mid-toned dusky blue. This was chosen as blue is often associated with sincerity and reliability, which are attractive attributes for a charity. Yellow was picked as a contrast colour for call-to-action buttons and important information. This not only makes this information ‘pop’, but it creates a fun, appealing colour scheme that is easy on the eye. An off-white, blue-toned colour was used for the background to main text, which is in a dark blue colour. This is to reduce eye-strain and make sure the website is accessible to colour blind and dyslexic people. 
 
 #### Typography 
+Fredoka One and Raleway were imported from google fonts for use in this project. Fredoka One was chosen for its fun appearance and its heavy weight. It was used for titles throughout the project. Raleway was chosen for its readability, and as a sans-serif font, it avoids some of the issues associated with letters blending together for dyslexic readers. 
+To further aid readability, I have increased the letter spacing in most instances. 
+Call to Action
+Call to actions have been designed to be as visible as possible. This includes using yellow as the main colour for buttons, and as a highlight colour when hovering over links in the top navbar. As the footer is a off-white, the social media links change instead to the mid-blue colour on hover so they remain legible. A light grey was used as the background colour for the navbar drop down menus, making it more visible on the mid-blue background.
+Call to action buttons are placed at key locations on the website, after information that may make a reader want to volunteer/donate/enquire about adoption. The ‘volunteer’ section in the navbar and the ‘Contact Us’ buttons throughout the website lead to the contact us form. All call to action buttons are placed center, making them easy to find. I also used a subtle animation to make them grow on hover. 
+
+#### Imagery
+As this website was for a fictional animal charity, it was important to include many pictures to get users to empathize with the animals. All images were taken from pexels and unsplash. I picked images that were clear and generally uplifting in mood. I resized all images using tiny.png to improve load times, and some were cropped using resize pixel.  
+Links to the original pictures are below:
+
+[Marley Jumbo](https://unsplash.com/photos/BLW_KQ0Rkn0)
+
+[Marley Image Bottom](https://unsplash.com/photos/tdmvrjF_14k)
+
+[Home Page Hero Image](https://unsplash.com/photos/9gz3wfHr65U)
+
+[Our Goals Image](https://unsplash.com/photos/Sg3XwuEpybU)
+
+[Our Team Image](https://www.pexels.com/photo/ground-group-growth-hands-461049/)
+
+[Felix Jumbo](https://www.pexels.com/photo/white-cat-with-pink-background-4587970/)
+
+[Felix Image Bottom](https://www.pexels.com/photo/white-short-coated-dog-on-pink-and-white-floral-textile-4588443/)
+
+[Form Background Image](https://www.pexels.com/photo/photo-of-white-and-brown-coated-dog-2820134/)
+
+[Lassie Image Bottom](https://www.pexels.com/photo/brown-and-white-long-coated-dog-on-blue-surface-7516799/)
+
+[Lassie Jumbo](https://www.pexels.com/photo/animal-dog-pet-cute-7516523/)
+
+[About Page Hero Image](https://www.pexels.com/photo/brown-tabby-cat-lying-on-white-floor-5427090/)
+
+I kept the design language similar through-out the website. Each page (apart from the contact us form) has a jumbotron with a background image at the top, followed by sections of text with left aligned titles.
+There is a background colour set for all jumbo-images so that the text can still be read if the image fails to load. While all images are set as background images for responsivity, they have alt text as supplied by an aria-label. This fits with most recent accessibility guidelines as outlined here: https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html. 
+
+### Skeleton
+#### Layout 
+The principles of responsive design was intrinsic to the development of this webpage. Some content changes from a single stack to a row of columns when transitioning from mobile to larger screen sizes. This allows the user to see more of the website on a larger screen. Some unimportant content (such as the background image in the our goals section) disappears on smaller screen sizes. The max-width attribute prevents the website becoming stretched at very larger screen sizes. 
+Bootstrap’s grid system was utilized for easy formatting. I also used jumbotrons to provide responsive hero images with text. Chrome dev tools was used to assess changes before altering my code.
+Padding and margins were used to keep the text readable and to mark the separation of different sections. This is also responsively sized so that there isn’t excess ‘blank’ areas on smaller screen sizes. 
+
+### Features
+#### Universal Features
+##### Logo and Navbar 
+The logo and navbar is fixed at the top of the page. At lower screen sizes, it includes a navbar toggler on the right hand side, which then expands to show all of the main links on larger screens. The navbar contains two dropdown menus that contain five subsections. These have a lighter background to improve visibility. The navbar toggler has a yellow background to make it stand out. All main links change to yellow on hover. The navbar is mid-blue in colour so it stands out against the off-white colour of the background. 
+Responsiveness
+The page is scaled up and down for different screen resolutions. This has been achieved using media queries and Bootstraps’ responsive columns.
+Accessibility
+All images and nav elements have alt attributes or aria-labels. This includes non-important background images that do not add to the understanding of the website but may still be of interest to visually impaired users. Colours of text/backgrounds were chosen for their high contrast ratings, and where the contrast was not sufficiently high, additional background features were added to improve readability. Links are consistent when hovered over. All font sizes are supplied in rem so they resize appropriately when someone has their own settings for font size. 
+
+##### Footer
+The footer consists of the social media links and the contact info section. The social media icons were supplied by Font Awesome. They change from a dark blue to mid-blue on hover. They are appropriately sized to be easy to tap when using a mobile/touch screen device. The contact info section was intended for use by users who do not wish to fill out a contact us form for whatever reason. It includes an email address and phone number. It has a mid-blue border at the top to separate it from the rest of the off-white screen.
+
+##### Meta data
+Descriptions, author’s name, and keywords were included in the head element to increase traffic to the website. Each page  has a different label so that if a user has multiple tabs open, they can easily identify which tab is which.
+
+#### Page Specific Features
+##### Home
+* Hero image with text requesting support and a donate button to encourage people to go straight to the donate page. 
+* The ‘Our Goals’ section which outlines the major ethos behind the charity, advertises their services and is responsively sized, so on wider screens it consists of three columns (with central image), then decreases to two columns at medium sizes, then one column on small devices. 
+* The ‘Our Team’ section which advertises the volunteering program and contains button linking to contact us form for more information on volunteering. Side image slides to the bottom on smaller screen sizes.
+##### About 
+* Hero image with text, in-keeping with the design language used elsewhere on the website.
+* An about section which outlines the history of the charity, who runs it and what facilities they own. 
+* A location section which provides textual directions to the facility and iframe map of the area so users can easily retrieve specific directions from their home. 
+##### Success Stories Pages 
+* All animal pages comprise of the same layout for a familiar feel and easy updating with new information/more pages in the future. 
+* Hero image with text that fades in, allowing users to get more of a look at the animal in question. 
+* A ‘past’ section which outlines what circumstances the animal comes from, what care it has received. 
+* A ‘future’ section which either outlines where and when the animal was adopted, or its suitability for adoption. Contains a call to action button to get people to request information on the adoption process.
+##### Support Us Pages
+* The donate link goes immediately to paypal for users to choose exactly how much they wish to donate. This opens in another tab to not interrupt their browsing. 
+* The contact us form is linked to from various sources on the website, so users with different intentions can find it. 
+* Contact form consists of background image and a semi-opaque background for readability. 
+* Form elements have a label as well as placeholder text. This is to ensure that screen readers pick up on the text. 
+* Appropriately spaced items so they are easily tappable on touch-screen devices and they are easily distinguishable from other form items on the page. 
+* A centered submit button which expands on hover. 
+##### Future Features
+* A Success Stories section on the home page, consisting of cards with background images of the animals which reveal a small amount of text on hover. 
+* Gallery jumbotron on home page to highlight other work the charity does. 
+* Page describing volunteering and the benefits to the individual. 
+
+### Technologies Used
+* HTML5 
+* CCS3 
+* Gitpod.io 
+* GitHub 
+* GIT 
+
+#### Design
+* Bootstrap 
+* jsDelivr
+* Google fonts 
+* Balsamiq wireframe 
+* Font Awesome 
+* Beautifer 
+* Tiny PNG 
+* ResizePixel
+
+#### Testing
+* HTML Validator 
+* CSS Validator
+* DEV Tools – Lighthouse
+
+### Testing 
+#### Validator Results 
+![alt text](https://github.com/graceedev/MS1-pawsandclaws/blob/master/assets/images/validator-results/2021-05-06.jpg?raw=true)
+
+1.	Navbar links work and the user is directed to the correct page on click – PASS
+2.	Logo takes the user back to the home page – PASS
+3.	External links open to new tab – PASS
+4.	All form inputs are sent to the server and are clearly named for readability – PASS
+5.	All required form inputs request input before submission – PASS
