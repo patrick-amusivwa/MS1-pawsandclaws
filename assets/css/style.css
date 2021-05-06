@@ -84,7 +84,7 @@ li a:hover {
 
 /*jumbotron on index page */
 .helpus {
-    background: url("../images/index-hero.jpg") no-repeat center center;
+    background: var(--off-white) url("../images/index-hero.jpg") no-repeat center center;
     min-height: 500px;
     background-size: cover;
 }
@@ -149,7 +149,7 @@ transform: scale(1.1);
 
 #center-about {
     height:100%;
-    background: url("../images/our-goals.jpg") no-repeat center center;
+    background: var(--off-white) url("../images/our-goals.jpg") no-repeat center center;
 }
 
 #right-about {
@@ -182,7 +182,7 @@ transform: scale(1.1);
 }
 
 .our-team-image {
-    background: url("../images/our-team.jpg") no-repeat center center;
+    background: var(--off-white) url("../images/our-team.jpg") no-repeat center center;
     height: 700px;
     opacity: 0.5;
     margin-top: 50px;
@@ -220,7 +220,7 @@ footer {
 
 /*about page jumbo */
 .about-jumbo {
-    background: url("../images/about-jumbo.jpg") no-repeat center center;
+    background: var(--off-white) url("../images/about-jumbo.jpg") no-repeat center center;
     background-size: cover;
 }
 
@@ -275,7 +275,7 @@ iframe {
 
 /*Contact Us*/
 .form {
-    background: url("../images/form-background.jpg") no-repeat center center;
+    background: var(--off-white) url("../images/form-background.jpg") no-repeat center center;
     background-size: cover;
 }
 
@@ -352,7 +352,7 @@ p, label {
 }
 
 .marley-jumbo {
-    background: url("../images/marley-jumbo.jpg") no-repeat center center;
+    background: var(--off-white) url("../images/marley-jumbo.jpg") no-repeat center center;
     background-size: cover;
 }
 
