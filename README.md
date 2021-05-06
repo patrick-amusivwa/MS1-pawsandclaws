@@ -170,6 +170,8 @@ For validation results, please see validator-results folder.
 #### Usability Testing
 
 This website has been tested on screen sizes ranging from 320px to 1693px using developer tools. All links are functional and the website is well presented between these sizes.
+To ensure that the navbar toggler does not wrap beneath the navbar brand, a media query was used to target very small screen sizes and make the navbar brand font smaller. 
+The other navbar links are also resized at smaller sizes to indicate hierarchy. 
 On screens bigger than 1500px, the website is still functional and no elements stretch or warp. Text remains clear on very small to very large sizes.
 
 Wave was used to asses the accessibility of the website. No errors or contrast errors were present. 
@@ -226,9 +228,9 @@ Each animal's page details their care, what training they have under gone and wh
 
 ### Deployment
 
-This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+This site is hosted using GitHub pages. It is deployed directly from the master branch. New commits in the master branch will automatically be reflected in the deployed site. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/hschafer2017/HSCHAFER-Portfolio.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/graceedev/MS1-pawsandclaws.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
 ### Credits
 All code, unless otherwise specified, was written by me. 
