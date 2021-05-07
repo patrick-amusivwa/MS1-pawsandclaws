@@ -54,12 +54,14 @@ This website will consist of
 ## Designs
 ### Surface
 #### Colour 
-The main colour for the website is a mid-toned dusky blue. This was chosen as blue is often associated with sincerity and reliability, which are attractive attributes for a charity. Yellow was picked as a contrast colour for call-to-action buttons and important information. This not only makes this information ‘pop’, but it creates a fun, appealing colour scheme that is easy on the eye. An off-white, blue-toned colour was used for the background to main text, which is in a dark blue colour. This is to reduce eye-strain and make sure the website is accessible to colour blind and dyslexic people. 
+The main colour for the website is a mid-toned dusky blue. This was chosen as blue is often associated with sincerity and reliability, which are attractive attributes for a charity. Yellow was picked as a contrast colour for call-to-action buttons and important information. This not only makes this information ‘pop’, but it creates a fun, appealing colour scheme that is easy on the eye. An off-white, blue-toned colour was used for the background to main text, which is in a dark blue colour. 
+This is to reduce eye-strain and make sure the website is accessible to colour blind and dyslexic people. To cater for colour blind users, red and green were avoided.
 
 #### Typography 
 Fredoka One and Raleway were imported from google fonts for use in this project. Fredoka One was chosen for its fun appearance and its heavy weight. It was used for titles throughout the project. Raleway was chosen for its readability, and as a sans-serif font, it avoids some of the issues associated with letters blending together for dyslexic readers. 
 To further aid readability, I have increased the letter spacing in most instances. 
-Call to Action
+
+#### Call to Action
 Call to actions have been designed to be as visible as possible. This includes using yellow as the main colour for buttons, and as a highlight colour when hovering over links in the top navbar. As the footer is a off-white, the social media links change instead to the mid-blue colour on hover so they remain legible. A light grey was used as the background colour for the navbar drop down menus, making it more visible on the mid-blue background.
 Call to action buttons are placed at key locations on the website, after information that may make a reader want to volunteer/donate/enquire about adoption. The ‘volunteer’ section in the navbar and the ‘Contact Us’ buttons throughout the website lead to the contact us form. All call to action buttons are placed center, making them easy to find. I also used a subtle animation to make them grow on hover. 
 
@@ -102,13 +104,17 @@ Padding and margins were used to keep the text readable and to mark the separati
 #### Universal Features
 ##### Logo and Navbar 
 The logo and navbar is fixed at the top of the page. At lower screen sizes, it includes a navbar toggler on the right hand side, which then expands to show all of the main links on larger screens. The navbar contains two dropdown menus that contain five subsections. These have a lighter background to improve visibility. The navbar toggler has a yellow background to make it stand out. All main links change to yellow on hover. The navbar is mid-blue in colour so it stands out against the off-white colour of the background. 
-Responsiveness
+
+##### Responsiveness
 The page is scaled up and down for different screen resolutions. This has been achieved using media queries and Bootstraps’ responsive columns.
-Accessibility
+A max width has been set in the root directory. Beyond this size, the header and footer will stretch to fill the width of the page, while its content remains in the same position as on large screen sizes. The page content remains within the boundaries of the max-width.
+
+##### Accessibility
 All images and nav elements have alt attributes or aria-labels. This includes non-important background images that do not add to the understanding of the website but may still be of interest to visually impaired users. Colours of text/backgrounds were chosen for their high contrast ratings, and where the contrast was not sufficiently high, additional background features were added to improve readability. Links are consistent when hovered over. All font sizes are supplied in rem so they resize appropriately when someone has their own settings for font size. 
 
 ##### Footer
-The footer consists of the social media links and the contact info section. The social media icons were supplied by Font Awesome. They change from a dark blue to mid-blue on hover. They are appropriately sized to be easy to tap when using a mobile/touch screen device. The contact info section was intended for use by users who do not wish to fill out a contact us form for whatever reason. It includes an email address and phone number. It has a mid-blue border at the top to separate it from the rest of the off-white screen.
+The footer consists of the social media links and the contact info section. The social media icons were supplied by Font Awesome. They grow on hover so users can tell when they have selected one. They are appropriately sized to be easy to tap when using a mobile/touch screen device. The contact info section was intended for use by users who do not wish to fill out a contact us form for whatever reason. It includes an email address and phone number. It has a mid-blue border at the top and a light grey background to separate it from the rest of the off-white screen and improve readability of text.
+On smaller sizes, it collapses into one centered column. On larger sizes, the contact section floats right while the social media icons float left. These elements remain at these positions on very large screen sizes.
 
 ##### Meta data
 Descriptions, author’s name, and keywords were included in the head element to increase traffic to the website. Each page  has a different label so that if a user has multiple tabs open, they can easily identify which tab is which.
@@ -169,10 +175,32 @@ For validation results, please see validator-results folder.
 
 #### Usability Testing
 
-This website has been tested on screen sizes ranging from 320px to 1693px using developer tools. All links are functional and the website is well presented between these sizes.
+This website has been tested on screen sizes ranging from 320px to 5000px using developer tools. 
+
+
+| Test Label      | Test Action        | Expected Outcome | Test Outcome |
+| --------------- |:------------------:| ----------------:|--------------|
+| Internal links  | Navigate to about page | About page appears in same tab| PASS
+| External links  | Navigate to donate page    |   Paypal page appears in different tab | PASS
+| Small Screens (>320px) | Reduce screensize on devtools  |  Navbar toggler appears | PASS
+|                 |  | Picture in our goals dissappears | PASS
+|                 |  | Our Goals section collapses to 2 col then 1 col | PASS
+|                 |  | Hero images shrink to not take up entire height | PASS
+| Large Screens   | Increase screensize on devtools | Navbar expands to show links | PASS
+|                 |                                 | Header and footer stretch to fill width | PASS
+|                 |                                 | Elements in header/footer remain in same positon | PASS
+|                 |                                 | Text/images do not warp to fit | PASS
+| Animations      | Hover over buttons              | Button should grow on hover | PASS
+|                 | Navigate to Marley's Page       | Jumbo-text should fade in   | PASS
+| Form            | Submit inputs on form           | Submit button sends info to server | PASS
+|                 |                                 | Does not allow submission without filling in required inputs | PASS
+|                 |                                 | Email requires valid email address | PASS
+|                 |                                 | Inputs are named appropriately for data-collection | PASS
+
+
 To ensure that the navbar toggler does not wrap beneath the navbar brand, a media query was used to target very small screen sizes and make the navbar brand font smaller. 
 The other navbar links are also resized at smaller sizes to indicate hierarchy. 
-On screens bigger than 1500px, the website is still functional and no elements stretch or warp. Text remains clear on very small to very large sizes.
+On screens bigger than 1500px, the max-width of the main page elemets, the website is still functional and no elements stretch or warp. Text remains clear on very small to very large sizes.
 
 Wave was used to asses the accessibility of the website. No errors or contrast errors were present. 
 It also identified that the page structure was adequate with h1 to h4 text present in correct order.
@@ -191,7 +219,7 @@ The website's functionality on Android and Apple phone products was tested via L
 
 #### Performance Testing
 
-Following checks using lighthouse, the footer colour was changed to an off white so there was sufficient contrast between the text and background. 
+Following checks using lighthouse, the footer colour was changed to a light grey so there was sufficient contrast between the text and background. 
 To ensure it remained distinct from the rest of the webpage, a mid-blue border top was added. Rel=noopener value was added to all external links with a target=_blank attribute
 to ensure security. 
 
@@ -208,7 +236,7 @@ For Mobile: 85 Performance
 
 #### User Stories
 * A user that wishes to donate to the charity immediately.
-The user can find a donate button immediately on the home page in a prominent positon. The button is clearly labelled and in a central position.
+The user can find a donate button immediately on the home page in a prominent positon. The button is clearly labelled and in a central position. There is also a Support Us section in the navbar that leads to the same place.
 
 * A user that wishes to volunteer with the charity.
 The user can find the relevent form quickly by using the navbar. There is also a Volunteer With Us button at the bottom of the home page, under a clear header.
@@ -217,6 +245,8 @@ The form has an existing option to request information about volunteering.
 * A user that wishes to find out more about what the charity does. 
 The home page hero image has text which makes it explicit what the charity aims to do. The home page has a goals section immediately below the hero image.
 This outlines the ethos of the charity and their facilities. There is a clearly named About page in the navbar which explains the charity's history, location and owners.
+The Success Stories section outlines what has been done in care of each animal featured, including non-medical treatment.
+In the footer, there is both contact info and links to social media sites. 
 
 * A user might wish to contact the charity for more information. 
 There are numerous Contact Us buttons on the site that lead to the Contact Us form. The contact us form has an existing option to request more information, and a section to state contact preference.
@@ -227,15 +257,20 @@ There is a section detailing the circumstances that have found animals with Paws
 Each animal's page details their care, what training they have under gone and whether they are available for adoption. There is also crucial information relating to the animal's care (e.g special dietry requirements).
 
 ### Deployment
+To add files into the github repository: 1. type 'git add FILENAME.html' into command line 
+                                         2. include clear, consise git commit message with 'git commit -m "COMMIT MESSAGE"'
+                                         3. push commit to github with 'git push'
 
 This site is hosted using GitHub pages. It is deployed directly from the master branch. New commits in the master branch will automatically be reflected in the deployed site. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
 To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/graceedev/MS1-pawsandclaws.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+Alternatively, you can fork this github by selecting 'fork' from near the settings menu on the github repository page. 
 
 ### Credits
 All code, unless otherwise specified, was written by me. 
 Thank you to Code Institute for supplying the template that this website uses. 
-The responsive navbar was initially created from a tutorial w3schools. 
+The responsive navbar was initially created from a tutorial on w3schools.
+Map widget is from Google Maps, following the instructions on https://www.maps.ie/create-google-map/ in lieu of creating an API.  
 The fade in animations on the Success Stories pages was from https://blog.hubspot.com/website/css-fade-in and used in conjunction with bootstrap. 
 The grow animation was found at https://travis.media/how-to-make-an-item-grow-on-hover-with-css*/. 
 
