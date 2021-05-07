@@ -166,6 +166,10 @@ li a:hover {
     color: var(--dk-blue);
 }
 
+.form-btn {
+    margin-bottom: 40px;
+}
+
 /* grow animation from https://travis.media/how-to-make-an-item-grow-on-hover-with-css*/
 .grow {
     transition: all .2s ease-in-out;
