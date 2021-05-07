@@ -45,6 +45,10 @@ nav {
     max-width: var(--max-width);
 }
 
+.fixed-top {
+    position: absolute;
+}
+
 .navbar-brand {
     font-family: 'Fredoka One', cursive;
     font-size: 1.75rem;
@@ -336,6 +340,11 @@ iframe {
 .form {
     background: var(--off-white) url("../images/form-background.jpg") no-repeat center center;
     background-size: cover;
+    margin-top: 70px;
+}
+
+.form-outer {
+    height: 100%;
 }
 
 .form-input {
