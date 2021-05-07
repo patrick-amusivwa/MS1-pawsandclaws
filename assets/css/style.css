@@ -19,6 +19,8 @@ body {
 
 body {
     background-color: var(--off-white);
+    max-width: var(--max-width);
+    margin: 0 auto;
 }
 
 .row {
@@ -33,10 +35,17 @@ header {
     display: flex;
     height: 60px;
     font-size: 1.25rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 nav {
     background-color: var(--mid-blue);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--max-width);
 }
 
 .navbar-brand {
@@ -87,6 +96,12 @@ li a:hover {
 
     li a {
         font-size: 0.90rem;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    header {
+        height: 70px;
     }
 }
 
@@ -209,6 +224,16 @@ footer {
     border-top: 10px solid var(--mid-blue);
     padding: 1rem;
     display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+  
+.footer-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--max-width);
 }
 
 .smedia-links {
@@ -229,6 +254,19 @@ footer {
     float: right;
     text-align: right;
     font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+    footer {
+        padding: 0;
+    }
+    .footer-content {
+        text-align: center;
+    }
+    .contact {
+        text-align: center;
+        float: none;
+    }
 }
 
 /*about page jumbo */
@@ -525,5 +563,26 @@ label {
 @media screen and (max-width: 992px) {
     .felix-img {
         height: 400px;
+    }
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 163px; 
+}
+
+@media screen and (max-width: 411px) {
+    #content-wrap {
+        padding-bottom: 276px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #content-wrap {
+        padding-bottom: 241px;
     }
 }
