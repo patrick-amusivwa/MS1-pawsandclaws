@@ -173,6 +173,8 @@ Descriptions, author’s name, and keywords were included in the head element to
 
 For validation results, please see validator-results folder. 
 
+There were a few warnings when running the CSS file through the validator but as these related to the root variable specified by myself and the cross-browser considerations put in place for the fade-in animation, I am happy with the results of this test. 
+
 #### Usability Testing
 
 This website has been tested on screen sizes ranging from 320px to 5000px using developer tools. 
