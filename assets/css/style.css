@@ -1,5 +1,5 @@
 /*basic styling */
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Raleway&display=swap");
 
 :root {
     --off-white: #EDF0FD;
@@ -14,7 +14,7 @@ html,
 body {
     max-width: 100%;
     overflow-x: hidden;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 body {
@@ -24,6 +24,29 @@ body {
 .row {
     margin-right: 0;
     margin-left: 0;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 163px;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 411px) {
+    #content-wrap {
+        padding-bottom: 276px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #content-wrap {
+        padding-bottom: 119px;
+    }
 }
 
 /*header */
@@ -51,7 +74,7 @@ nav {
 }
 
 .navbar-brand {
-    font-family: 'Fredoka One', cursive;
+    font-family: "Fredoka One", cursive;
     font-size: 1.75rem;
     letter-spacing: 0.25rem;
     color: var(--yellow);
@@ -154,7 +177,7 @@ li a:hover {
 
 /* our goals section */
 .section-title {
-    font-family: 'Fredoka One', cursive;
+    font-family: "Fredoka One", cursive;
     color: var(--dk-blue);
     letter-spacing: 0.25rem;
     margin-top: 25px;
@@ -575,28 +598,5 @@ label {
 @media screen and (max-width: 992px) {
     .felix-img {
         height: 400px;
-    }
-}
-
-#page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-#content-wrap {
-  padding-bottom: 163px;
-  max-width: var(--max-width);
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 411px) {
-    #content-wrap {
-        padding-bottom: 276px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    #content-wrap {
-        padding-bottom: 119px;
     }
 }
