@@ -1,4 +1,6 @@
-
+<?php
+include_once('template.header.php');
+?>
     <div id="page-container">
         <div id="content-wrap">
             <!--Form-->
