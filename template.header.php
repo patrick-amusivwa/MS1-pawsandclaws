@@ -55,7 +55,7 @@
                             Support Us
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownSupportUs">
-                            <a class="dropdown-item" href="https://paypal.me/graperavies?locale.x=en_GB" target="_blank"
+                            <a class="dropdown-item" href="paypal.com" target="_blank"
                                 rel="noopener" aria-label="link to paypal for donations">Donate</a>
                             <a class="dropdown-item" href="contact.php"
                                 aria-label="link to volunteer/contact us form">Volunteer</a>
