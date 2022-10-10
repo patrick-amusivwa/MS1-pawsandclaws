@@ -23,7 +23,7 @@
     <!--Navbar-->
     <header>
         <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
-            <a class="navbar-brand" href="index.html">Paws and Claws <i class="fas fa-paw" aria-hidden="true"></i></a>
+            <a class="navbar-brand" href="index.php">Paws and Claws <i class="fas fa-paw" aria-hidden="true"></i></a>
             <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -32,10 +32,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html" aria-label="link to home page">Home</a>
+                        <a class="nav-link" href="index.php" aria-label="link to home page">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html" aria-label="link to about page">About<span
+                        <a class="nav-link" href="about.php" aria-label="link to about page">About<span
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
@@ -44,9 +44,9 @@
                             Success Stories
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownSuccessStories">
-                            <a class="dropdown-item" href="marley.html" aria-label="link to Marley's story">Marley</a>
-                            <a class="dropdown-item" href="lassie.html" aria-label="link to Lassie's story">Lassie</a>
-                            <a class="dropdown-item" href="felix.html" aria-label="link to Felix's story">Felix</a>
+                            <a class="dropdown-item" href="marley.php" aria-label="link to Marley's story">Marley</a>
+                            <a class="dropdown-item" href="lassie.php" aria-label="link to Lassie's story">Lassie</a>
+                            <a class="dropdown-item" href="felix.php" aria-label="link to Felix's story">Felix</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -57,7 +57,7 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownSupportUs">
                             <a class="dropdown-item" href="https://paypal.me/graperavies?locale.x=en_GB" target="_blank"
                                 rel="noopener" aria-label="link to paypal for donations">Donate</a>
-                            <a class="dropdown-item" href="contact.html"
+                            <a class="dropdown-item" href="contact.php"
                                 aria-label="link to volunteer/contact us form">Volunteer</a>
                         </div>
                     </li>
